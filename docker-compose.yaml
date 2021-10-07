@@ -1,0 +1,21 @@
+version: "3.7"
+services:
+  flask:
+    container_name: "flask_app"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python3 app.py
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mongo
+
+  mongo:
+    container_name: "mongo"
+    image: mongo:latest
+    environment:
+      MONGO_INITDB_DATABASE: db
+    ports:
+      - "27017:27017"
+    restart: unless-stopped
