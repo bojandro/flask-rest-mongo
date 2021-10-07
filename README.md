@@ -1,6 +1,6 @@
 # Flask REST MongoDB
 
-## Descriptions
+## Description
 
 Simple REST API to manage User model
 
