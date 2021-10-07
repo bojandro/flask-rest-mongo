@@ -10,7 +10,7 @@ Simple REST API to manage User model
 
 Clone repo:
 ```shell
-$ git clone https://github.com/bojandro/flast-rest-mongo
+$ git clone https://github.com/bojandro/flast-rest-mongo.git
 ```
 
 <br>
