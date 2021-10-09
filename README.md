@@ -2,7 +2,7 @@
 
 ## Description
 
-Simple REST API to manage User model
+Simple REST API to manage User model.
 
 <br>
 
@@ -35,4 +35,4 @@ docker-compose up --build
 
 ## Docs
 
-`Swagger` API docs are available by going to `localhost:5000`
+`Swagger` API docs are available by going to `localhost:5000`.
