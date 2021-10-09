@@ -6,29 +6,33 @@ Simple REST API to manage User model
 
 <br>
 
-### Installation
+## Installation
+
+All the following commands are written for `Ubuntu` and `bash` terminal.
+
+<br>
 
 Clone repo:
-```shell
-$ git clone https://github.com/bojandro/flast-rest-mongo.git
+```bash
+git clone https://github.com/bojandro/flast-rest-mongo.git
 ```
 
 <br>
 
 Go to project dir:
-```shell
-$ cd flask-rest-mongo
+```bash
+cd flask-rest-mongo
 ```
 
 <br>
 
 Run docker-compose:
-```shell
-$ docker-compose up --build
+```bash
+docker-compose up --build
 ```
 
 <br>
 
-### Docs
+## Docs
 
 `Swagger` API docs are available by going to `localhost:5000`
